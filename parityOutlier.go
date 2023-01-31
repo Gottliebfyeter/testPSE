@@ -10,7 +10,6 @@ func main() {
 	var arr = make([]int, size)
 
 	for i := 0; i < size; i++ {
-		//fmt.Print(i)
 		fmt.Scanf("%d", &arr[i])
 	}
 
