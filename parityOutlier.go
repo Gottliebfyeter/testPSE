@@ -32,7 +32,7 @@ func parityOutlier(arr []int) string {
 	if len(odd) == 1 {
 		res = fmt.Sprintf("%d (the only odd number)", odd)
 	}
-	if len(even) == 0 && len(odd) != 1 {
+	if len(even) == 0 {
 		res = fmt.Sprintf("false (all odd integer, no outlier)")
 	}
 	if len(odd) == 0 {
